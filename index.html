@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Healthify</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="maincontainer">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">Healthify</div>
+      <ul class="nav-links">
+        <li>
+          <a href="#"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-stethoscope"></i> Physical</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-heart"></i> Mental</a>
+        </li>
+        <!-- Right corner for user photo or first letter based on profile -->
+        <li class="user-profile">A</li>
+      </ul>
+    </nav>
+
+    <!-- Header with Carousel -->
+    <header class="header">
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="card">
+              <div class="card-text">
+                <h3>Physical Health</h3>
+                <p>Wellness begins with you</p>
+              </div>
+              <div class="card-img">
+                <img src="img/helthy2.png" alt="Placeholder Image" />
+              </div>
+            </div>
+            </div>
+    
+            <div class="item">
+              <div class="card">
+                <!-- Text content of the card -->
+                <div class="card-text">
+                  <h3>Mental Health</h3>
+                  <p>Your mind matters: prioritize your mental health.</p>
+                </div>
+                <!-- Image aligned to the right -->
+                <div class="card-img">
+                  <img src="img/mentalhealth.jpg" alt="Placeholder Image" />
+                </div>
+              </div>
+            </div>
+              <div class="item">
+                <div class="card">
+                  <!-- Text content of the card -->
+                  <div class="card-text">
+                    <h3 class="heading">Disease Prediction</h3> <!-- Heading at the top -->
+                    <p class="paragraph">Predicts disease</p> <!-- Paragraph in the middle -->
+                    <div class="button-container"> <!-- Button container to center the button -->
+                      <a href="#" class="btn">Click here</a> <!-- Button directing to another page -->
+                    </div>
+                  </div>
+                  
+                 
+                  
+               
+                  <!-- Image aligned to the right -->
+                  <div class="card-img">
+                    <img src="img/diseaseprediction.jpg" alt="Placeholder Image" />
+                  </div>
+                </div>
+              </div>
+
+            
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#myCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section with Categories -->
+    <section class="categories">
+      <h2>Categories</h2>
+      <div class="category-list">
+        <div class="category-item">
+          <img src="img/babycare2.jpg" alt="BabyCare" class="category-img">
+          <h4>BabyCare</h4>
+          <a href="#" class="category-btn">Learn More</a>
+        </div>
+        <div class="category-item">
+          <img src="img/womencare.jpg" alt="WomenCare" class="category-img">
+          <h4>WomenCare</h4>
+          <a href="#" class="category-btn">Learn More</a>
+        </div>
+        <div class="category-item">
+          <img src="img/adultcare3.jpg" alt="Adult Care" class="category-img">
+          <h4>Adult Care</h4>
+          <a href="#" class="category-btn">Learn More</a>
+        </div>
+        <div class="category-item">
+          <img src="img/bpcare.jpg" alt="BP Care" class="category-img">
+          <h4>BP Care</h4>
+          <a href="#" class="category-btn">Learn More</a>
+        </div>
+        <div class="category-item">
+          <img src="img/diabetes.jpg" alt="Diabetes Care" class="category-img">
+          <h4>Diabetes Care</h4>
+          <a href="diabetes.html" class="category-btn">Learn More</a>
+        </div>
+        <div class="category-item">
+          <img src="img/homeremedies1.jpg" alt="Home Remedies" class="category-img">
+          <a href="#" class="category-btn">Home Remedies</a>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="copyright">&copy; 2024 Healthify</div>
+      <div class="contact">Contact us: example@example.com</div>
+    </footer>
+
+    <!-- JavaScript for Carousel functionality (if needed) -->
+    <script src="script.js"></script>
+  </body>
+</html>
